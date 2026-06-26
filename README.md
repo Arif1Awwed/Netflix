@@ -28,10 +28,8 @@ This workspace contains the following key files:
 
 **MySQL** serves as the central data store and query engine for this project.
 
-### 1. Database & Schema Concept
-![MySQL Database](mysql_concept.png)
 
-### 2. Database Schema Definition
+### 1. Database Schema Definition
 ```sql
 CREATE DATABASE netflix_db;
 USE netflix_db;
@@ -52,7 +50,7 @@ CREATE TABLE netflix_titles (
 );
 ```
 
-### 3. Key Analytical SQL Queries
+### 2. Key Analytical SQL Queries
 *   **Content Type Distribution (Movies vs. TV Shows):**
     ```sql
     SELECT type, COUNT(*) as total_count
