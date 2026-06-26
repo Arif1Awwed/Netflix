@@ -75,10 +75,9 @@ CREATE TABLE netflix_titles (
 
 **Power BI** is utilized to build a clean, dynamic dashboard with real-time slicing and query capabilities.
 
-### 1. Dashboard Concept
-![Power BI Analytics](powerbi_concept.png)
 
-### 2. Key Dashboard Features:
+
+### 1. Key Dashboard Features:
 *   **Key Performance Indicators (KPIs):** Instant metrics for Total Titles, Total Movies, and Total TV Shows.
 *   **Content Split:** A donut chart visual representing the ratio of Movies to TV Shows in the catalog.
 *   **Release & Additions Trends:** Line charts mapping the volume of new releases over time.
